@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 
 
 
-const SignIn = require("../models/SignIn");
+const SignIn = require("../Models/SignIn")
 
 
 

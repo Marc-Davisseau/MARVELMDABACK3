@@ -6,7 +6,7 @@ router.use(formidableMiddleware());
 
 const apikey = process.env.API_KEY;
 
-const isAuthenticated = require("../middlewares/isAuthenticated");
+const isAuthenticated = require("../middlewares/isAuthenticated")
 
 
 router.post("/characters", async  (req, res) => {

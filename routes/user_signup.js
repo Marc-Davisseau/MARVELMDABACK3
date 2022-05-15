@@ -17,7 +17,7 @@ const cloudinary = require("cloudinary").v2;
 //  } );
 
 //import models
-const SignIn = require("../models/SignIn");
+const SignIn = require("../Models/SignIn")
 
 
 router.post("/user/signup", async (req,res) =>{

@@ -1,4 +1,4 @@
-const SignIn = require("../models/SignIn");
+const SignIn = require("../Models/SignIn")
 
 const isAuthenticated = async (req, res, next) => {
   //   console.log("Hello from isAuthenticated");
